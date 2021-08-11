@@ -1,0 +1,1 @@
+# stella-d-oro
