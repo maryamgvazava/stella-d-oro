@@ -1,0 +1,209 @@
+body{
+  margin:0;
+  font-family: 'merriweather', serif;
+  text-align:center;
+}
+
+.top-container {
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 50px;
+}
+
+hr{
+  display: block;
+  border: line;
+  margin:0 auto;
+}
+
+.woman-container{
+  text-align:center;
+  position: relative;
+  margin: auto 0;
+  width: 100%
+
+}
+
+h1 {
+  font-family: 'Brush Script MT', Brush Script Std, cursive;
+  margin-top:0;
+  color: #FFC947;
+  font-weight: lighter;
+  line-height: 1;
+  font-size: 50px;
+}
+
+
+.woman {
+  text-align:center;
+position: relative;
+max-width: 1200px;
+height: 800px;
+margin: auto;
+
+}
+
+.woman-display-left{
+  position: absolute;
+    top: 50%;
+    left: 20%;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight:normal;
+        font-size: 100px;
+
+}
+
+.woman-display-right{
+  position: absolute;
+    top: 50%;
+    right: 20%;
+        border: none;
+        display: inline-block;
+        padding: 8px 16px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        color: inherit;
+        background-color: inherit;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        font-weight:normal;
+            font-size: 100px;
+}
+
+
+.text{
+  
+}
+
+.middle-container{
+
+background-color: #F5E8C7;
+position:relative;
+display: inline-block;
+margin: auto 0;
+width: 100%
+
+}
+
+.moda{
+  position: relative;
+  top: 100px;
+}
+
+h2 {
+  position: relative;
+  top: 50px;
+  font-size: 50px;
+  font-family: 'Apple Chancery', cursive;
+}
+
+.phrase1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family:'Brush Script MT', Brush Script Std, cursive
+
+}
+
+.us{
+  position: relative;
+  top:50px;
+}
+
+.about-us {
+  background-color: #C9D8B6;
+  position:relative;
+  display: inline-block;
+  margin: auto 0;
+  width: 100%
+}
+
+h3{
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: normal;
+  font-family:'Brush Script MT', Brush Script Std, cursive
+
+}
+
+.contact-me{
+  padding-top: 100px;
+  background-color: #FFE6E6;
+  position:relative;
+  display: inline-block;
+  margin: auto 0;
+  width: 100%
+}
+
+
+.contactme{
+
+  color: #9DDAC6;
+}
+
+
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 0 0 0 #678a25;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+background-color: #628395;
+padding: 50px 0 20px;
+  }
+
+  a {
+    color: #9DDAC6;
+    margin: 10px 20px;
+    text-decoration:none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+  .intro {
+    width: 30%
+  }

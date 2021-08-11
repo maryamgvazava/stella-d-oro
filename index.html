@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Stella D'oro</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+
+
+  <body>
+    <div class="top-container">
+
+
+      <div class="h1">
+    <h1>Stella D'oro</h1>
+      </div>
+
+
+      <div class="woman-continer">
+    <img class= "woman" src="images/woman.jpg" alt="mountain-img" width: "500px", hight: "800px">
+
+  <img class= "woman" src="images/baby.jpg" alt="mountain-img" width: "500px", hight: "800px">
+    <img class= "woman" src="images/girl.jpg" alt="mountain-img" width: "500px", hight: "800px">
+      <img class= "woman" src="images/honey.jpg" alt="mountain-img" width: "500px", hight: "800px">
+      <img class= "woman" src="images/flower.jpg" alt="mountain-img" width: "500px", hight: "800px">
+      </div>
+    </div>
+
+    <button class="woman-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="woman-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("woman");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+    <hr>
+
+
+    <div class="middle-container">
+        <img class="moda" src="images/moda.png" alt="moda" width=500px; height=500px;>
+        <h2>Hello</h2>
+        <p class="phrase1">Feeling good makes you Beautiful, but good clothe is the reason of feelgood!</p>
+      </div>
+      <hr>
+
+      <div class="about-us">
+          <img class="us" src="images/us.png" alt="us">
+        <h2>Why us?</h2>
+
+          <h3>because you will never ever get dissapointed!</h3>
+              </div>
+      </div>
+
+      <hr>
+
+      <div class="contact-me">
+<a class="btn" href="mailto:maryamgvazava@gmail.com">CONTACT US</a>
+        <h2 class=contactme>Get In Touch</h2>
+        <h3>We are waiting for you</h3>
+
+      </div>
+<hr>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2021 Maryam Gvazava.</p>
+    </div>
+
+    </div>
+
+    <div class="bottom-container">
+
+    </div>
